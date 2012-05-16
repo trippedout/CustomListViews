@@ -57,6 +57,8 @@ public class FeaturedItemArrayAdapter extends ArrayAdapter<FeaturedItem>
         FeaturedItem featuredItem = mItems.get(position);
         holder.tvTitle.setText(featuredItem.getTitle());
         holder.tvSubTitle.setText(featuredItem.getSubTitle());
+//        holder.ivImage.setImageResource(R.id.yourResourceId); //use reference to your image grabbed from a string-array or other source passed in on creation
+        
         
         return row;
 	}

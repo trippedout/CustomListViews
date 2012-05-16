@@ -48,7 +48,7 @@ public class MainActivity extends Activity implements OnItemClickListener, OnScr
 			fi.setContentType("music");
 			fi.setImgUrl("http://www.trippedout.net/image" + i + ".png");
 			fi.setSubTitle("Happening on June " + (i+5) + "!");
-			fi.setTitle("USHER LIVE " + (i+1) + " streaming concert");
+			fi.setTitle("TRIP LIVE " + (i+1) + " streaming concert");
 			
 			featuredItems.add(fi);
 		}
