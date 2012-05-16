@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/li_ivImage"
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:background="#55229922"
+        android:contentDescription="@string/img_cd" />
+
+    <RelativeLayout
+        android:id="@+id/li_rlDescriptionArea"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:gravity="center_vertical"
+        android:background="#3000"
+        android:paddingLeft="6dp"
+        android:paddingTop="2dp" >
+        
+        <TextView 
+            android:id="@+id/li_tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="16.5sp" />
+        
+        <TextView 
+            android:id="@+id/li_tvSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/li_tvTitle"
+            android:textColor="#919191"
+            android:textSize="9sp" />
+        
+        <ImageView 
+            android:id="@+id/li_ivMediaTypeIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/icon_cd"
+            />
+        
+    </RelativeLayout>
+
+</FrameLayout>
